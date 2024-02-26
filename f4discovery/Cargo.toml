@@ -1,0 +1,10 @@
+
+[workspace]
+members = [
+  "chapters/01-leds",
+]
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
